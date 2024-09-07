@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Portfolio App</string>
+    <string name="technical_skills">TECHNICAL SKILLS:</string>
+    <string name="darkmode">Darkmode</string>
+    <string name="achievements">Achievements</string>
+    <string name="achievementes">ACHIEVEMENTES</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="nikhil_chintha">NIKHIL CHINTHA</string>
+    <string name="work">WORK</string>
+    <string name="education">EDUCATION</string>
+    <string name="skills">SKILLS</string>
+    <string name="android_developer">Android developer</string>
+    <string name="todo">TODO</string>
+    <string name="_2_years">_2_years</string>
+    <string name="mern_stack_developement">mern_stack_developement</string>
+    <string name="contact_me">CONTACT ME</string>
+    <string name="experience">Experience</string>
+    <string name="full_name">Full name</string>
+    <string name="submit">Submit</string>
+    <string name="email">Email</string>
+    <string name="message">Message</string>
+</resources>

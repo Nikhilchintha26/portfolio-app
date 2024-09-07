@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EducationActivity">
+
+    <TextView
+        android:id="@+id/schoolDl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCHOOL"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/scDl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-->kakatiya  \n--> 2020 \n--> 10gpa"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/interDl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INTERMEDIATE"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/inDl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-->SR  \n--> 2020-2022 \n--> 93%"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+    <TextView
+        android:id="@+id/btechDl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B-TECH"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="30dp"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/btDl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-->MRCE  \n--> 2022-2026 \n-->current  8.3 gpa"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"/>
+
+
+</LinearLayout>

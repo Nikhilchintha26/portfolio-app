@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Light" parent="Theme.AppCompat.Light">
+
+    </style>
+    <style name="AppTheme.Dark" parent="Theme.AppCompat">
+
+    </style>
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:background">@drawable/custom_button_background</item>
+        <item name="android:textColor">@color/purple_500</item>
+        <item name="android:padding">12dp</item>
+    </style>
+</resources>

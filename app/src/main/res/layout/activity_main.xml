@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+
+        android:id="@+id/modeBt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/dark_mode"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck,VisualLintButtonSize" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/myphoto"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:id="@+id/nameView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/nikhil_chintha"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/workView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="@string/android_developer"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="TextSizeCheck" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="93dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/skillBT"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/skills"
+            android:textColor="#00796B"
+            android:textSize="16sp"
+            tools:ignore="VisualLintButtonSize" />
+
+
+        <Button
+            android:id="@+id/educationBT"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/experience"
+            android:textColor="#00796B"
+            android:textSize="16sp"
+            tools:ignore="VisualLintButtonSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/workBT"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/education"
+            android:textColor="#00796B"
+            android:textSize="16sp"
+            tools:ignore="VisualLintButtonSize" />
+
+        <Button
+            android:id="@+id/achieveBT"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="18dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="@string/achievements"
+            android:textColor="#00796B"
+            android:textSize="16sp"
+            tools:ignore="VisualLintButtonSize,TextSizeCheck" />
+
+    </LinearLayout>
+
+    <Space
+        android:id="@+id/dividerSpace"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+
+    <Button
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_me"
+        android:textColor="@color/white"
+        style="@style/CustomButtonStyle"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>
